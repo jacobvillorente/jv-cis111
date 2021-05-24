@@ -1,0 +1,23 @@
+body {
+  background-color: gray;
+  font: 14pt Arial;
+}
+
+#main {
+  border: 2px solid black;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+input {
+  font-size: 1.1em;
+}
+
+button {
+  font-size: 1.1em
+}

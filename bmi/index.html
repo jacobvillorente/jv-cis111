@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="bmi.js" defer></script>
+  </head>
+  <body>
+    <div id="main">
+      <h2>BMI Calculator</h2>
+      <label for="feet">Feet</label>
+      <input name="feet" id="feet" type="text" size="5">
+      <br>
+      <label name="inches">Inches</label>
+      <input name="feet" id="inches" type="text" size="5">
+      <br>
+      <label name="weight">Weight (lbs)</label>
+      <input name="feet" id="weight" type="text" size="5">
+      <br>
+      <button onclick="add()">Calculate</button>
+      <br>
+      <button onclick="reset()">Clear</button>
+      <h2 id="bmi"></h2>
+    </div>
+    </body>
+</html>
